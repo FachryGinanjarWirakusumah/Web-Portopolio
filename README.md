@@ -42,8 +42,8 @@ Cocok untuk menampilkan identitas profesional secara online dan sebagai latihan 
 ┣ style.css
 ┣ script.js
 ┣ /img
- ┣  profile.jpg
- ┗  project1.png
+┃ ┣  profile.jpg
+┃ ┗  project1.png
  
 ---
 
