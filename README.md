@@ -29,8 +29,28 @@ Cocok untuk menampilkan identitas profesional secara online dan sebagai latihan 
 <img width="1866" height="762" alt="Screenshot 2025-08-17 213055" src="https://github.com/user-attachments/assets/4677a4cb-60ea-4031-8fb3-f3e39634ef74" />
 <img width="1861" height="851" alt="Screenshot 2025-08-17 213038" src="https://github.com/user-attachments/assets/631ed439-9a4a-4f69-a5bd-c9bc8cd9e700" />
 
+
 📌 Teknologi yang Digunakan
 
 - HTML5 untuk struktur halaman
 - CSS3 untuk styling dan responsivitas
 - JavaScript untuk interaktivitas
+
+  ## 📂 Struktur Folder
+
+├──── index.html
+└──── style.css
+└──── script.js
+└──── /img
+ ├── profile.jpg
+ └── project1.png
+ 
+---
+
+📌 **Catatan**  
+Proyek ini adalah website portofolio pribadi berbasis statis (HTML, CSS, JS) tanpa backend.  
+Untuk deployment bisa menggunakan **GitHub Pages** agar mudah diakses online.  
+
+👨‍💻 **Dibuat oleh**  
+Fachry Ginanjar – buat belajar dan seru-seruan frontend 🚀
+
