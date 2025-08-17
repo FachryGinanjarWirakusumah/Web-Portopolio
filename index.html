@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="brand">Brand</div>
+            <ul class="nav-links">
+                <li><a href="#header">Header</a></li>
+                <li><a href="#about">Biodata</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Header Section -->
+    <section id="header" class="header-section">
+        <div class="header-text">
+            <h2>Selamat Datang di Website Saya</h2>
+            <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+            <a href="#" class="btn">Pelajari Lebih Lanjut</a>
+        </div>
+        <div class="header-image">
+            <img src="https://via.placeholder.com/600x400" alt="Header Image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>Biodata</h2>
+        <p class="subtitle">Pengenalan singkat tentang diriku</p>
+        <div class="about-grid">
+            <div class="about-item" data-label="Full Name" data-detail="Fachry Ginanjar Wirakusumah">Full Name</div>
+            <div class="about-item" data-label="Education" data-detail="S1 Desain Komunikasi Visual">Education</div>
+            <div class="about-item" data-label="Pekerjaan" data-detail="Desain Grafis">Pekerjaan</div>
+            <div class="about-item" data-label="Contact" data-detail="+62-895-*67*-****">Contact</div>
+            <div class="about-item" data-label="Hobi" data-detail="Membaca Buku">Hobi</div>
+            <div class="about-item" data-label="Alamat" data-detail="Jl. Contoh No.123, Bandung">Alamat</div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <h2>Portofolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <img src="/img/gambar3.png" alt="Proyek 3">
+                <h3>Proyek 1</h3>
+                <p>Deskripsi proyek 1.</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="/img/gambar1.png" alt="Proyek 2">
+                <h3>Proyek 2</h3>
+                <p>Deskripsi proyek 2.</p>
+            </div>
+            <div class="portfolio-card">
+                <img src="/img/gambar2.png" alt="Proyek 1">
+                <h3>Proyek 3</h3>
+                <p>Deskripsi proyek 3.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Lightbox / Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img id="lightbox-img" src="" alt="Full View">
+        </div>
+    </div>
+
+<!-- Footer Utama -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Layanan</h3>
+            <ul>
+                <li><a href="#">Desain Grafis</a></li>
+                <li><a href="#">Pengembangan Web</a></li>
+                <li><a href="#">UI/UX</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">Bantuan</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Kebijakan Privasi</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Informasi</h3>
+            <ul>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Ikuti Kami</h3>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3>Langganan</h3>
+            <form>
+                <input type="email" placeholder="Masukkan email" required>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+</footer>
+
+<!-- Bagian Bawah Footer -->
+<div class="footer-bottom">
+    <p>&copy; 2025 Website Portofolio Wiraku. All Rights Reserved.</p>
+    <p>Designed by Fachry Ginanjar</p>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
