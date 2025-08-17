@@ -38,12 +38,12 @@ Cocok untuk menampilkan identitas profesional secara online dan sebagai latihan 
 
   ## 📂 Struktur Folder
 
-├──── index.html
-└──── style.css
-└──── script.js
-└──── /img
- ├── profile.jpg
- └── project1.png
+┣ index.html
+┣ style.css
+┣ script.js
+┣ /img
+ ┣  profile.jpg
+ ┗  project1.png
  
 ---
 
